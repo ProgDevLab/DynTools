@@ -1,0 +1,13 @@
+---
+version: '3.6'
+
+services:
+  dyntools_docs:
+    container_name: dyntools_docs
+    image: dyntools_docs:latest
+    build:
+      context: ..
+      dockerfile: ./docsify/Dockerfile
+    ports:
+    - 6007:80
+    restart: unless-stopped
