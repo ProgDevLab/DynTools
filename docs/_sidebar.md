@@ -1,4 +1,4 @@
 * [Home](/)
-* [Ideas](/docs/ideas.md)
+* [Ideas](/docs/global/ideas.md)
 * [Contributing](/CONTRIBUTING.md)
 * [Licence](/LICENCE.md)

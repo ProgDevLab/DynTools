@@ -16,6 +16,7 @@
     - [Global](#global)
     - [Docker](#docker)
     - [Linux](#linux)
+    - [Windows](#windows)
   - [Development](#development)
     - [Requirements](#requirements)
     - [Docsify](#docsify)
@@ -39,7 +40,8 @@ Group of Tools used in other projects.
 
 ### Global
 
-- [Ideas](./docs/ideas.md)
+- [Ideas](./docs/global/ideas.md)
+- [Boot Key](./docs/global/boot.md)
 
 ### Docker
 
@@ -47,7 +49,11 @@ Group of Tools used in other projects.
 
 ### Linux
 
-- TODO
+- [Debian](./docs/linux/debian.md)
+
+### Windows
+
+- [Install Package Manager](./docs/windows/install.md)
 
 ## Development
 
