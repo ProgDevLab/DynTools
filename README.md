@@ -50,6 +50,7 @@ Group of Tools used in other projects.
 ### Linux
 
 - [Debian](./docs/linux/debian.md)
+- [WakeOnLan](./docs/linux/wol.md)
 
 ### Windows
 
