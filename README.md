@@ -54,6 +54,7 @@ Group of Tools used in other projects.
 ### Windows
 
 - [Install Package Manager](./docs/windows/install.md)
+- [Git](./docs/windows/git.md)
 
 ## Development
 

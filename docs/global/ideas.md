@@ -10,8 +10,6 @@
 
 ## Ideas
 
-- Global :
-  - Boot Key Creation (Linux, Windows)
 - Docker :
   - Docker Ignore File
 - Linux :

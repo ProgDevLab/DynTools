@@ -1,6 +1,6 @@
 # DynTools : Windows : Install Package Manager
 
-![Icon](../icon.png)
+![Icon](../../icon.png)
 
 ## Table Of Contents
 
