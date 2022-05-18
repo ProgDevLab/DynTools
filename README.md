@@ -51,6 +51,7 @@ Group of Tools used in other projects.
 
 - [Debian](./docs/linux/debian.md)
 - [WakeOnLan](./docs/linux/wol.md)
+- [GRUB Boot Menu](./docs/linux/grub.md)
 
 ### Windows
 
