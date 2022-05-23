@@ -46,6 +46,7 @@ Group of Tools used in other projects.
 ### Docker
 
 - [Root Folder](./docs/docker/root_folder.md)
+- [Build](./docs/docker/build.md)
 
 ### Linux
 

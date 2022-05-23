@@ -1,4 +1,7 @@
 * [Home](/)
-* [Ideas](/docs/global/ideas.md)
+* [Global](/docs/global/README.md)
+* [Docker](/docs/docker/README.md)
+* [Linux](/docs/linux/README.md)
+* [Windows](/docs/windows/README.md)
 * [Contributing](/CONTRIBUTING.md)
 * [Licence](/LICENCE.md)

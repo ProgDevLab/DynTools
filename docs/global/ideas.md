@@ -10,10 +10,4 @@
 
 ## Ideas
 
-- Docker :
-  - Docker Ignore File
-- Linux :
-  - Sudo Installation
-  - Debian Network
-- VS Code :
-  - Python PDM Auto Complete
+- Nothing.
