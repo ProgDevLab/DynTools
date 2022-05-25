@@ -4,7 +4,7 @@ version: '3.6'
 services:
   dyntools_docs_dev:
     container_name: dyntools_docs_dev
-    image: dyntools_docs:latest-dev
+    image: dyntools-docs:latest-dev
     build:
       context: ..
       dockerfile: ./docsify/Dockerfile.dev
