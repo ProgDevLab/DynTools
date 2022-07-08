@@ -1,19 +1,18 @@
-# DynTools : Windows
+# DynTools : Machine
 
 ![Icon](../../icon.png)
 
 ## Table Of Contents
 
-- [DynTools : Windows](#dyntools--windows)
+- [DynTools : Machine](#dyntools--machine)
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
   - [Documentations](#documentations)
 
 ## Description
 
-All Documentations about Windows.
+All Documentations about machine.
 
 ## Documentations
 
-- [Install Package Manager](./install.md)
-- [Git](./git.md)
+- [ODROID HC4](./odroid_hc4.md)

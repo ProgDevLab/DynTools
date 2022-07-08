@@ -2,8 +2,8 @@
 version: '3.6'
 
 services:
-  dyntools_docs_dev:
-    container_name: dyntools_docs_dev
+  dyntools-docs-dev:
+    container_name: dyntools-docs-dev
     image: dyntools-docs:latest-dev
     build:
       context: ..

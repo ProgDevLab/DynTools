@@ -16,6 +16,7 @@
     - [Global](#global)
     - [Docker](#docker)
     - [Linux](#linux)
+    - [Machine](#machine)
     - [Windows](#windows)
   - [Development](#development)
     - [Requirements](#requirements)
@@ -53,6 +54,13 @@ Group of Tools used in other projects.
 - [Debian](./docs/linux/debian.md)
 - [WakeOnLan](./docs/linux/wol.md)
 - [GRUB Boot Menu](./docs/linux/grub.md)
+- [ZFS](./docs/linux/zfs.md)
+- [NFS](./docs/linux/nfs.md)
+- [SMB](./docs/linux/smb.md)
+
+### Machine
+
+- [ODROID HC4](./docs/machine/odroid_hc4.md)
 
 ### Windows
 

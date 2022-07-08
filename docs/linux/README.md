@@ -15,6 +15,9 @@ All Documentations about Linux.
 
 ## Documentations
 
-- [Debian](./docs/linux/debian.md)
-- [WakeOnLan](./docs/linux/wol.md)
-- [GRUB Boot Menu](./docs/linux/grub.md)
+- [Debian](./debian.md)
+- [WakeOnLan](./wol.md)
+- [GRUB Boot Menu](./grub.md)
+- [ZFS](./zfs.md)
+- [NFS](./nfs.md)
+- [SMB](./smb.md)
