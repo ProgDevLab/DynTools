@@ -12,6 +12,8 @@
   - [Linux](#linux)
   - [How to create a USB Boot Key](#how-to-create-a-usb-boot-key)
   - [Tutorials](#tutorials)
+  - [Special Tools : Ventoy](#special-tools--ventoy)
+    - [How to use it ?](#how-to-use-it-)
 
 ## Description
 
@@ -50,3 +52,23 @@ You need just a **USB Key** to do this, the best size of this key will be **16 -
 ## Tutorials
 
 - [Bootable Windows USB Key from Linux](https://itsfoss.com/bootable-windows-usb-linux/)
+
+## Special Tools : Ventoy
+
+[Ventoy](https://www.ventoy.net/en/index.html) is a **great tools** to create a **USB Key** with **multiple** boot ISO if you want to create a USB Key with a **Linux ISO** and a **Windows ISO** and make them **bootable**, it's great to save some USB Key when you make some **Dual boot**, you can also add some **tools ISO** like **GParted** (manage disk partition) or **other**.
+
+> You can find if the **ISO** you want to add is **supported** on this [page](https://www.ventoy.net/en/isolist.html) !
+
+### How to use it ?
+
+Here some step to use it in any system (**Windows** or **Linux**) :
+
+1) First you need to **download the tools** and **install it**, to do this, go to the [download page](https://www.ventoy.net/en/download.html) and select the **package** you want (also available as **livecd** if you want !), normally they **redirect** you to this [GitHub Release page](https://github.com/ventoy/Ventoy/releases).
+2) **Unzip** your archive in a **good programs folder** (**/opt/ventoy** for **Linux** and **C://Program Files/Ventoy** for **Windows**).
+3) Next you can launch **Ventoy** with the **GUI** depending of your **architecture** (**VentoyGUI.x86_64** for a **x86-64** architecture)
+4) You can **configure** the **language** and some **parameters** (personally I recommend to configure the **Partition Configuration** and **preserve some GB** at the end of the disk, so you can create a little volume to store **some data** if you want).
+5) Select your **USB Key** and click on **Install**.
+6) Now Ventoy is installed on your **USB Key** and you can **relaunch Ventoy** to **update** the version on your **USB Key** if you want in **future**.
+7) Finally you can place your **ISO** or **any other format** of files in your **USB Key Ventoy** (also works in **sub folders** if you want to **organize** them) and **Ventoy** will detect them automatically when you will **boot** on it.
+
+> **Have fun** like me and now you need juste **ONE** USB Boot Key !
