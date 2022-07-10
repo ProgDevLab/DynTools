@@ -1,4 +1,4 @@
-* [Home](/)
+* [DynTools](/)
 * [Global](/docs/global/README.md)
 * [Docker](/docs/docker/README.md)
 * [Linux](/docs/linux/README.md)
