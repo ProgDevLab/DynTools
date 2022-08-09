@@ -15,5 +15,7 @@ All Documentations about Docker.
 
 ## Documentations
 
+- [Install](./install.md)
+- [API](./api.md)
 - [Root Folder](./root_folder.md)
 - [Build](./build.md)
