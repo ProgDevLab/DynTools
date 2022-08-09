@@ -57,6 +57,9 @@ Group of Tools used in other projects.
 - [ZFS](./docs/linux/zfs.md)
 - [NFS](./docs/linux/nfs.md)
 - [SMB](./docs/linux/smb.md)
+- [Nano](./docs/linux/nano.md)
+- [VIM](./docs/linux/vim.md)
+- [SSH Security](./docs/linux/ssh.md)
 
 ### Machine
 
