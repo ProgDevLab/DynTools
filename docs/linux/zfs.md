@@ -14,6 +14,7 @@
   - [Mount and Unmount Command](#mount-and-unmount-command)
   - [Auto Mount Encrypted Pool](#auto-mount-encrypted-pool)
   - [Maintenance](#maintenance)
+  - [RAID Choice](#raid-choice)
 
 ## Description
 
@@ -23,6 +24,7 @@ You have some documentations here :
 
 - [ArchWiki ZFS](https://wiki.archlinux.org/title/ZFS)
 - [Encrypted ZFS](https://timor.site/2021/11/creating-fully-encrypted-zfs-pool/)
+- [ZFS Raid Speed Capacity](https://calomel.org/zfs_raid_speed_capacity.html)
 
 ## Requirements
 
@@ -167,3 +169,14 @@ Upgrade your pool :
 ```bash
 sudo zpool upgrade data_01
 ```
+
+## RAID Choice
+
+When you choose a RAID, you can use this great [documentation](https://calomel.org/zfs_raid_speed_capacity.html), because there are some tips to know to setup your RAID with ZFS, here some example :
+
+- **MIRROR (raid1)** used with **two(2)** to **four(4)** disks or more.
+- **RAIDZ-1 (raid5)** used with **five(5)** disks or more.
+- **RAIDZ-2 (raid6)** used with **six(6)** disk or more.
+- **RAIDZ-3 (raid7)** used with **eleven(11)** disks or more.
+
+**RAIDZ-2** or **MIRROR** is the best minimal option to use, **RAIDZ-3** is the best, but a lot complicated to have.
