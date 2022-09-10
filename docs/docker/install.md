@@ -41,6 +41,9 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
 rm get-docker.sh
+
+# Install Docker Compose
+sudo apt install docker-compose -y
 ```
 
 ### Linux Standard
