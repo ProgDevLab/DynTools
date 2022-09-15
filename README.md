@@ -62,6 +62,7 @@ Group of Tools used in other projects.
 - [Nano](./docs/linux/nano.md)
 - [VIM](./docs/linux/vim.md)
 - [SSH Security](./docs/linux/ssh.md)
+- [Git](./docs/linux/git.md)
 
 ### Machine
 
