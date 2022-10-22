@@ -103,16 +103,16 @@ When you have your Docker Compose file, you can run these :
 
 ```bash
 # Development Build
-docker-compose -f docker-compose.dev.yml build
+docker compose -f docker-compose.dev.yml build
 # Development Libs install
-docker-compose -f docker-compose.dev.yml run --service-ports --rm testy npm install
+docker compose -f docker-compose.dev.yml run --service-ports --rm testy npm install
 # Development Run
-docker-compose -f docker-compose.dev.yml up
+docker compose -f docker-compose.dev.yml up
 
 # Production Build
-docker-compose build
+docker compose build
 # Production Run
-docker-compose up
+docker compose up
 ```
 
 ## Environment File

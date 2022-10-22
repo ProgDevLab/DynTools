@@ -41,9 +41,6 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 
 rm get-docker.sh
-
-# Install Docker Compose
-sudo apt install docker-compose -y
 ```
 
 ### Linux Standard
@@ -75,7 +72,7 @@ echo \
 
 # Install Docker
 sudo apt-get update
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
 ## Docker Desktop
