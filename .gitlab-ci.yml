@@ -1,8 +1,4 @@
-stages:
-- deploy
-
 pages:
-  stage: deploy
   script:
   - mkdir .public
   - cp -r docs .public/
