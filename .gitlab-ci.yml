@@ -7,7 +7,6 @@ pages:
   - mkdir .public
   - cp -r docs .public/
   - cp ./icon.png .public/icon.png
-  - cp ./CHANGELOG.md .public/CHANGELOG.md
   - cp ./CONTRIBUTING.md .public/CONTRIBUTING.md
   - cp ./index.html .public/index.html
   - cp ./LICENCE.md .public/LICENCE.md
