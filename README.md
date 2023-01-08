@@ -54,6 +54,7 @@ Group of Tools used in other projects.
 ### Linux
 
 - [Debian](./docs/linux/debian.md)
+- [Mint](./docs/linux/mint.md)
 - [WakeOnLan](./docs/linux/wol.md)
 - [GRUB Boot Menu](./docs/linux/grub.md)
 - [ZFS](./docs/linux/zfs.md)
