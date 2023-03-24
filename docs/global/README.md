@@ -17,3 +17,5 @@ All Global Documentations.
 
 - [Ideas](./ideas.md)
 - [Boot Key](./boot.md)
+- [Makefile](./makefile.md)
+- [Backup](./backup.md)

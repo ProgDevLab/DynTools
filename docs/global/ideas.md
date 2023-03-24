@@ -1,6 +1,6 @@
 # DynTools : Ideas
 
-![Icon](../icon.png)
+![Icon](../../icon.png)
 
 ## Table Of Contents
 

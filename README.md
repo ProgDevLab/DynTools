@@ -19,7 +19,6 @@
     - [Machine](#machine)
     - [Windows](#windows)
   - [Development](#development)
-    - [Requirements](#requirements)
     - [Docsify](#docsify)
   - [Contributing](#contributing)
   - [Licence](#licence)
@@ -43,6 +42,8 @@ Group of Tools used in other projects.
 
 - [Ideas](./docs/global/ideas.md)
 - [Boot Key](./docs/global/boot.md)
+- [Makefile](./docs/global/makefile.md)
+- [Backup](./docs/global/backup.md)
 
 ### Docker
 
@@ -50,6 +51,7 @@ Group of Tools used in other projects.
 - [API](./docs/docker/api.md)
 - [Root Folder](./docs/docker/root_folder.md)
 - [Build](./docs/docker/build.md)
+- [Useful](./docs/docker/useful.md)
 
 ### Linux
 
@@ -79,26 +81,21 @@ Group of Tools used in other projects.
 
 If you want you can **develop** this repository :
 
-1) You need to install the [Requirements](#requirements)
+1) You need to install **Docker**
 2) You can develop on [Docsify](#docsify)
-
-### Requirements
-
-We use **Docker** :
-
-- Docker
-- Docker Compose
 
 ### Docsify
 
 ```bash
-cd docsify
-
 # Development
-docker compose -f docker-compose.dev.yml up
+make build-dev
+make start-dev
+make stop-dev
 
 # Production
-docker compose up --build
+make build
+make start
+make stop
 ```
 
 ## Contributing
