@@ -14,6 +14,7 @@
   - [Access](#access)
   - [Tools](#tools)
     - [Global](#global)
+  - [Virtual Machine](#virtual-machine)
     - [Docker](#docker)
     - [Linux](#linux)
     - [Machine](#machine)
@@ -44,6 +45,10 @@ Group of Tools used in other projects.
 - [Boot Key](./docs/global/boot.md)
 - [Makefile](./docs/global/makefile.md)
 - [Backup](./docs/global/backup.md)
+
+## Virtual Machine
+
+- [Install](./docs/vagrant/install.md)
 
 ### Docker
 
